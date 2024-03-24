@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="inicio">
+        <div class="flex-barra">
+            <nav class="menubarra">
+                <a href="/index.html" class="navlink">
+                    <img src="/images/logo sin fondo color.png"  alt="Poporo-logo" class="loguito">
+                </a>
+                <ul class="navbar">
+                    <li><a href="/index.html" class="navlink" target="_blank">Inicio</a></li>
+                    <li><a href="/index.html#cultura" class="navlink" target="_blank">Cultura</a></li>
+                    <li><a href="/index.html#poporos" class="navlink" target="_blank">Poporos</a></li>
+                    <li><a href="/descubrimiento.html" class="navlink" target="_blank" >Descubrimiento</a></li>
+                    <li><a href="/arte.html" class="navlink">Arte</a></li>
+                    <li><a href="/contacto.html" class="navlink" target="_blank" >Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="contacto" id="contacto">
+            <div class="container-contact">
+                <div class="centrar">
+                    <div class="title-contact">
+                        <h3 class="dont">Don't be shy, write to us</h3>
+                    </div>
+                </div>  
+                <form>
+                    <div class="info-contacto">
+                        <div class="container-bloque">
+                            <div class="bloque">
+                                <div class="label-contacto">
+                                    <div class="columna2">
+                                        <label class="label" for="name" >Nombre</label>
+                                        <label class="label" for="telefono">Telefono</label>
+                                        <label class="label" for="email">Email</label>
+                                    </div>   
+                                </div>
+                                <div class="casilla-contacto">
+                                    <div class="columna2">
+                                        <input class="casilla" type="text" name="nombre" id="nombre" placeholder="Nombre completo" required>
+                                        <input class="casilla" type="text" name="telefono" id="telefono" placeholder="ind + tel (9 digitos)" required>
+                                        <input class="casilla" type="email" name="email" id="email" placeholder="Direccion correo" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ultimo">
+                            <div class="bloque">
+                                <div class="cont-label">
+                                    <label class="label" for="anterior">Deseas recibir mas informacion</label>
+                                </div>  
+                            </div>
+                            <div class="bloque">
+                                <div class="check">
+                                    <label for="si-anterior"> Si<input type="checkbox" name="si-anterior" id="si-anterior" value="Si"></label>
+                                    <label for="no-anterior">No<input type="checkbox" name="no-anterior" id="no-anterior" value="No"></label>
+                                </div>
+                            </div>
+                            <div class="bloque">
+                                <div class="label-text">
+                                    <label  for="text-area">Escribenos</label> 
+                                </div>
+                            </div>
+                            <div class="bloque">
+                                <div class="write-label"> 
+                                    <textarea name="text-area" id="text-area" cols="50" rows="10" placeholder="Te interesa la cultura quimbaya. Escribenos que tema te gustaria profundizar y enviaremos informacion actualizada."></textarea>                
+                                </div>
+                            </div>
+                            <div class="bloque-enviar">
+                                <div class="enviar">
+                                    <input type="submit">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>

@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    font-family: "Victor Mono", monospace;
+    text-align: justify;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+:root {
+    --title-color: #5C4150 ;
+    --tutto-background-color: rgb(230, 206, 251);
+}
+body {
+    background-color: #efc7dd;
+
+}
+nav {
+    display: flex;
+    align-items: flex-start;
+    background-color: #C989BD;
+}
+
+.loguito {
+    padding: 0;
+    width: 50px;
+}
+
+ul {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+.flex-barra {
+    position: sticky;
+    top:0;
+    display: block;
+
+}
+.navlink {
+    color: #dbe5f3;
+    padding: 0px 50px;
+}
+/*INICIO*/
+.titulochulo {
+    display: flex;
+}
+
+
+.titulopagina {
+    background-image: url(./images/vector\ poporo\ logo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 80px;
+    padding: 50px;
+    border: 1px dotted black;
+    border-radius: 20px;
+    box-shadow: #ff81c6 10px 10px; 
+  
+}
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.subchulo {
+    color: #9A81A6;
+    font-weight: bold;
+    font-size: 30px;
+    float: right;
+    text-shadow: 5px 5px rgb(251, 251, 156);
+}
+
+h1 {
+    padding: 30px;
+    padding-left: 150px;
+
+
+    margin: 30px;
+    color: #9A81A6;
+    font-size: 70px;
+    text-shadow: 5px 5px rgb(251, 251, 156);
+    
+}
+
+/*CULTURA*/
+
+.cultu-title {
+    margin-top: 60px;
+    text-shadow: 5px 5px #e999c5;
+    padding: 110px 50px 10px 90px;
+}
+.cultura-title {
+    display: block;
+    font-size: 16px;
+    justify-self: center;
+    padding-left: 10px;
+    
+}
+.cult-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    width: 570px;
+    background-color: #ffffff63;
+    border: #5C4150 solid 1px;
+    box-shadow: 10px 10px #e999c5 ;
+    transition: transform .2s;
+}
+.cult-text:hover{
+    transform: scale(1.3); 
+
+}
+.texto-cultu {
+    font-size: 13px;
+    padding: 0px 20px;
+    color: rgb(18, 102, 102);
+
+}
+
+.titu-cultu {
+    color: #9A81A6;
+    font-size: 70px;
+}
+
+.container-cult-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 80px;
+    
+}
+
+/*POPOROS*/
+.Sec-poporos {
+    padding: 100px 60px 20px 60px;
+
+}
+.container-poporos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px 10px 30px;
+    border: #5C4150 dotted 1px;
+    box-shadow: 5px 5px grey;
+    background-color: #fafee8d0;
+}
+
+.poporo {
+    height: 350px;
+    margin: 15px 50px;
+}
+
+.entresecciones1 {
+    margin: 20px;
+    height: 350px;   
+    width: 500px; 
+}
+   
+.poporo-quimb-titu {
+    padding: 0px 40px;
+    color: var(--title-color);
+    font-size: 35px;
+    
+}
+.poporo-quimb-text{
+    padding: 30px 30px;
+    font-size: 12px;
+}
+.poporo-extra {
+    padding: 20px;
+    margin: 30px 50px 0px 40px ;
+    font-size: 12px;
+    border: #5C4150 dotted 1px;
+    box-shadow: 5px 5px grey;
+    background-color: #fafee8d0;
+ 
+}
+
+/*DESCUBRIMIENTO*/
+
+.cont-descubrimiento {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+.poporos {
+    display: flex;
+    background-color: rgba(128, 0, 128, 0.385);
+ 
+}
+.titulo-descu {
+    color: rgba(157, 151, 195, 0.767);
+    writing-mode: vertical-rl; 
+    font-size: 65px;
+}
+.descu-text {
+    font-size: 14px;
+    width: 260px;
+}
+.cont-descu-text {
+    color: #e999c5;
+    background-color: rgba(239, 239, 209, 0.6);
+    padding: 10px 20px;
+    box-shadow: 8px 8px rgba(157, 151, 195, 0.767);
+}
+.periodico {
+    justify-self: center;
+    width: 250px;
+    padding: 15px 0px;
+}
+
+/*ARTE*/
+.cont-arte {
+    background-color: #cbe9ef;
+    padding-top: 30px;
+}
+.catalogo-obras {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 150px 80px 150px; 
+}
+.arte-title {
+    margin: 0px 180px 0px 160px;
+    padding: 15px 40px;
+    text-align: right;
+    font-size: 50px;
+    color: var(--title-color);
+    background-color: rgba(245, 150, 245, 0.392);
+    box-shadow: #f3e4c1 8px 8px;
+    border: dotted grey  1px;
+}
+
+.columna {  
+    flex: 25%;
+}
+
+.catalogo {
+    border-radius: 12px;
+    width: 370px;
+    margin: 10px;
+    border: grey dotted 1px;
+    background-color: #cbe9ef;
+    box-shadow: #f3e4c1 8px 8px;
+}
+.cat-video {
+    display: flex;
+    justify-self: center;
+}
+/*FORMULARIO*/
+.bloque {
+    padding: 10px 30px;
+    display: flex;
+}
+.container-contact {
+    padding: 20px;
+}
+.contacto {
+    background-color: #f3e4c1;
+    display: flex;
+    justify-content: center;
+}
+    
+.title-contact {
+    padding: 20px 0px;
+    font-size: 20px;
+    align-self: center;
+    background-color: #e999c5;
+    margin: 15px;
+    box-shadow: 5px 5px rgb(238, 245, 143);
+}
+.container-bloque {
+    display: flex;
+    justify-content: center;
+    background-color: #D7D1EB;
+    margin: 15px;
+    box-shadow: 5px 5px rgb(238, 245, 143);
+}
+.ultimo {
+    
+    background-color: #D7D1EB;
+    margin: 15px;
+    box-shadow: 5px 5px rgb(238, 245, 143);
+}
+.dont {
+    text-align: center;
+}
+.columna2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.label {
+    margin: 5px;
+}
+.casilla {
+    margin: 5px;
+}
+.bloque-enviar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+
+/*FOOTER*/
+.cont-foot {
+    background-color:rgba(128, 16, 128, 0.338);
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+
+}
+
